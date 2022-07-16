@@ -1,5 +1,6 @@
 cyan='\033[0;36m'
 green='\033[0;32m'
+orange='\033[0;33m'
 NC='\033[0m'
 
 Year=`date +%Y`
@@ -18,7 +19,7 @@ sleep 1
 echo -n "\n ."
 done
 printf "\n"
-echo "upgrading system, please wait until done"
+echo -e "${orange}upgrading system, please wait until done${NC}"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
 for (( counter=3; counter>0; counter-- ))
