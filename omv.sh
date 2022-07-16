@@ -10,6 +10,7 @@ Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
 echo `date`
+echo -e "${cyan}============================================================${NC}"
 echo "Current Date is: $Day-$Month-$Year"
 echo "Current Time is: $Hour:$Minute:$Second"
 echo -e "${cyan}=========== S T A R T I N G   S C R I P T ==================${NC}"
