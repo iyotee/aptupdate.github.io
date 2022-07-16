@@ -1,3 +1,7 @@
+cyan='\033[0;36m'
+green='\033[0;32m'
+NC='\033[0m'
+
 Year=`date +%Y`
 Month=`date +%m`
 Day=`date +%d`
