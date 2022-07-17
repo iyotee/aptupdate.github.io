@@ -10,12 +10,12 @@ Day=`date +%d`
 Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
-printf " "
+printf "\n"
 echo -e "${cyan}======================================================================================================================${NC}"
 echo "Current Date is: $Day-$Month-$Year"
 echo "Current Time is: $Hour:$Minute:$Second"
 echo -e "${cyan}=================================================== S T A R T I N G   S C R I P T ====================================${NC}"
-printf(" ")
+printf "\n"
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
