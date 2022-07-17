@@ -51,10 +51,12 @@ do
 sleep 1
 done
 echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
-for (( counter=5; counter>0; counter-- ))
+printf "\n"
+printf "\n Starting in ..."
+for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-printf "\n ."
+printf "$counter "
 done
 printf "\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
