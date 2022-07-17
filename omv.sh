@@ -17,7 +17,7 @@ echo -e "${cyan}=========== S T A R T I N G   S C R I P T ==================${NC
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-echo -n "\n ."
+echo -n " ."
 done
 printf "\n"
 echo -e "${orange} --> upgrading system, please wait until done${NC}"
