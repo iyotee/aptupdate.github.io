@@ -10,11 +10,9 @@ Day=`date +%d`
 Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
-echo `date`
 echo -e "${cyan}======================================================================================================================${NC}"
 echo "Current Date is: $Day-$Month-$Year"
 echo "Current Time is: $Hour:$Minute:$Second"
-sleep 3
 echo -e "${cyan}=================================================== S T A R T I N G   S C R I P T ====================================${NC}"
 for (( counter=3; counter>0; counter-- ))
 do
@@ -24,16 +22,22 @@ done
 printf "\n"
 echo -e "${orange} 1/2 --> upgrading system${NC}"
 echo -e "${orange} 2/2 --> installing Open Media Vault last version${NC}"
+for (( counter=5; counter>0; counter-- ))
+do
+sleep 1
+echo -e " . "
+done
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
+sleep 2
 echo -e "${green} 1/2 --> upgrading system/t ...DONE${NC}"
 for (( counter=2; counter>0; counter-- ))
 do
 sleep 1
 done
 echo -e "${orange} 2/2 --> installing Open Media Vault last version, please wait until done${NC}"
-for (( counter=3; counter>0; counter-- ))
+for (( counter=5; counter>0; counter-- ))
 do
 sleep 1
 printf "\n ."
