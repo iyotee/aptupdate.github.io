@@ -15,7 +15,6 @@ echo -e "${cyan}================================================================
 echo "Current Date is: $Day-$Month-$Year"
 echo "Current Time is: $Hour:$Minute:$Second"
 echo -e "${cyan}=================================================== S T A R T I N G   S C R I P T ====================================${NC}"
-printf "\n"
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
@@ -23,9 +22,14 @@ printf "\n ."
 done
 printf "\n"
 echo -e "${cyan}___________ WE ARE GOING TO FULLY UPGRADE YOUR SYSTEM AND INSTALL OPEN MEDIA VAULT FOR YOU ! __________${NC}"
+printf "\n"
 sleep 1
 echo -e "${orange} 1/2 --> upgrading system${NC}"
-sleep 3
+for (( counter=3; counter>0; counter-- ))
+do
+sleep 1
+echo -e " . "
+done
 echo -e "${orange} 2/2 --> installing Open Media Vault last version${NC}"
 sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
