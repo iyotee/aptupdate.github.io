@@ -32,7 +32,7 @@ echo -e "${cyan}________________________________________________________________
 for (( counter=5; counter>0; counter-- ))
 do
 sleep 1
-echo -e " . "
+printf " . "
 done
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
