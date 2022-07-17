@@ -40,7 +40,7 @@ printf "\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 printf "\n"
-echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
+echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY THE $Day-$Month-$Year AT $Hour:$Minute:$Second${NC}"
 echo -e "${green}=============================${NC}"
 sleep 2
 printf "\n"
