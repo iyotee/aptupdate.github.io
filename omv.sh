@@ -31,8 +31,7 @@ do
 sleep 1
 printf " ... $counter "
 done
-printf "\n"
-printf "\n"
+printf "\n\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 printf "\n"
@@ -54,11 +53,10 @@ do
 sleep 1
 printf " ... $counter "
 done
-printf "\n"
-printf "\n"
+printf "\n\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
 printf "\n"
-echo -e "${cyan}The script will auto-reboot after the installation.${NC}"
+echo -e "${cyan}\nThis takes about 20 minutes depending your systems performance and your network connection\nThe script will auto-reboot after the installation.${NC}"
 printf "\n"
 sleep 2
 sudo curl -sSL https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
