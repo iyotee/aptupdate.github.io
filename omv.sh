@@ -20,7 +20,7 @@ do
 sleep 1
 printf "\n ."
 done
-printf "\n"
+printf "\n\n"
 echo -e "${cyan}___________ WE ARE GOING TO FULLY UPGRADE YOUR SYSTEM AND INSTALL OPEN MEDIA VAULT FOR YOU ! __________${NC}"
 printf "\n"
 sleep 1
@@ -29,11 +29,14 @@ sleep 1
 echo -e "${orange} 2/2 --> Install Open Media Vault with the last version${NC}"
 sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
-for (( counter=5; counter>0; counter-- ))
+printf "\n"
+printf "\n Starting in ..."
+for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-printf " . "
+printf "\n $counter "
 done
+printf "\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 printf "\n"
