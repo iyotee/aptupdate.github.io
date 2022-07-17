@@ -39,6 +39,7 @@ clear
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
 sleep 2
 printf "${green} 1/2 --> upgrading system/t ...DONE${NC}"
+printf "\n"
 for (( counter=2; counter>0; counter-- ))
 do
 sleep 1
