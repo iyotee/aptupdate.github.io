@@ -28,6 +28,6 @@ do
 sleep 1
 echo -n " ."
 done
-echo -e "${cyan}=========== S T A R T I N G       O  V  M      I N S T A L A T I O N (will auto-reboot after installation) ==================${NC}"
+echo -e "${cyan}=========== S T A R T I N G       O  M  V      I N S T A L A T I O N (will auto-reboot after installation) ==================${NC}"
 sudo curl -sSL https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
