@@ -36,8 +36,10 @@ echo -e " . "
 done
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
+printf "\n"
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
 sleep 2
+printf "\n"
 printf "${green} 1/2 --> upgrading system\t...DONE${NC}"
 printf "\n"
 for (( counter=2; counter>0; counter-- ))
