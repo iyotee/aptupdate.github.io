@@ -9,6 +9,13 @@ Day=`date +%d`
 Hour=`date +%H`
 Minute=`date +%M`
 Second=`date +%S`
+StartingIn (){
+for (( counter=$1; counter>0; counter-- ))
+do
+sleep 1
+printf " ... $counter "
+done
+}
 printf "\n"
 echo -e "${cyan}=======================================================================================================${NC}"
 echo "Current Date is: $Day-$Month-$Year"
@@ -25,14 +32,7 @@ sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
 printf "\n"
 printf "\n Starting in "
-StartingIn (){
-for (( counter=$1; counter>0; counter-- ))
-do
-sleep 1
-printf " ... $counter "
-done
-}
-StartingIn 5
+StartingIn 4
 printf "\n\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
@@ -47,11 +47,7 @@ sleep 3
 echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
 printf "\n"
 printf "\n Starting in "
-for (( counter=3; counter>0; counter-- ))
-do
-sleep 1
-printf " ... $counter "
-done
+StartingIn 4
 printf "\n\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
 printf "\n"
