@@ -1,3 +1,4 @@
+clear
 cyan='\033[0;36m'
 green='\033[0;32m'
 orange='\033[0;33m'
