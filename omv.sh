@@ -53,7 +53,7 @@ sleep 1
 printf "\n ."
 done
 printf "\n"
-echo -e "${cyan}============ S T A R T I N G       O  M  V      I N S T A L A T I O N (will auto-reboot after installation) =========${NC}"
+echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
 printf "\n"
 sudo curl -sSL https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
