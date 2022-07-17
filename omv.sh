@@ -32,6 +32,7 @@ sleep 1
 printf " ... $counter "
 done
 printf "\n"
+printf "\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 printf "\n"
@@ -53,6 +54,7 @@ do
 sleep 1
 printf " ... $counter "
 done
+printf "\n"
 printf "\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
 printf "\n"
