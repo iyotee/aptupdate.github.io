@@ -22,10 +22,16 @@ sleep 1
 printf "\n ."
 done
 printf "\n"
-echo -e "${orange} 1/2 --> upgrading system, please wait until done${NC}"
+echo -e "${orange} 1/2 --> upgrading system${NC}"
+echo -e "${orange} 2/2 --> installing Open Media Vault last version${NC}"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
+clear
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
-echo -e "${green} 1/2 --> upgrading system, please wait until done${NC}"
+echo -e "${green} 1/2 --> upgrading system/t ...DONE${NC}"
+for (( counter=2; counter>0; counter-- ))
+do
+sleep 1
+done
 echo -e "${orange} 2/2 --> installing Open Media Vault last version, please wait until done${NC}"
 for (( counter=3; counter>0; counter-- ))
 do
