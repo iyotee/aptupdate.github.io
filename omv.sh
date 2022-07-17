@@ -30,11 +30,11 @@ echo -e "${orange} 2/2 --> Install Open Media Vault with the last version${NC}"
 sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
 printf "\n"
-printf "\n Starting in ..."
+printf "\n Starting in "
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-printf "$counter "
+printf " ... $counter "
 done
 printf "\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
@@ -52,11 +52,11 @@ sleep 1
 done
 echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
 printf "\n"
-printf "\n Starting in ..."
+printf "\n Starting in "
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-printf "$counter "
+printf " ... $counter "
 done
 printf "\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
