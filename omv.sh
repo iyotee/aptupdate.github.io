@@ -31,13 +31,13 @@ echo -e "${orange} 2/2 --> Install Open Media Vault with the last version${NC}"
 sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
 printf "\n"
-printf "\n Starting in "
+printf "\n\n Starting in "
 StartingIn 4
 printf "\n\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
 printf "\n"
-echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY THE $Day-$Month-$Year AT $Hour:$Minute:$Second${NC}"
+echo -e "${green}--> UPGRADING SYSTEM SUCCESSFULLY THE $Day-$Month-$Year AT $Hour:$Minute:$Second${NC}"
 echo -e "${green}============================================================${NC}"
 sleep 2
 printf "\n"
@@ -45,12 +45,10 @@ printf "${green} 1/2 --> Upgrading system\t...DONE${NC}"
 printf "\n"
 sleep 3
 echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
-printf "\n"
-printf "\n Starting in "
+printf "\n\n Starting in "
 StartingIn 4
 printf "\n\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
-printf "\n"
 echo -e "${cyan}\nThis takes about 20 minutes depending your systems performance and your network connection\nThe script will auto-reboot after the installation.${NC}"
 printf "\n"
 sleep 2
