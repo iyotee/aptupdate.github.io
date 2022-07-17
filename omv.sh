@@ -40,10 +40,7 @@ sleep 2
 printf "\n"
 printf "${green} 1/2 --> Upgrading system\t...DONE${NC}"
 printf "\n"
-for (( counter=2; counter>0; counter-- ))
-do
-sleep 1
-done
+sleep 3
 echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
 printf "\n"
 printf "\n Starting in "
