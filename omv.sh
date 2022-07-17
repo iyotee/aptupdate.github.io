@@ -25,11 +25,14 @@ sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
 printf "\n"
 printf "\n Starting in "
-for (( counter=3; counter>0; counter-- ))
+StartingIn (){
+for (( counter=$1; counter>0; counter-- ))
 do
 sleep 1
 printf " ... $counter "
 done
+}
+StartingIn 5
 printf "\n\n"
 sudo curl https://iyotee.github.io/apt.sh | sudo bash
 clear
