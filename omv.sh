@@ -22,7 +22,7 @@ sleep 1
 printf "\n ."
 done
 printf "\n"
-echo -e "${cyan}___________WE ARE GOING TO FULLY UPGRADE YOUR SYSTEM AND INSTALL OPEN MEDIA VAULT FOR YOU !__________${NC}"
+echo -e "${cyan}___________ WE ARE GOING TO FULLY UPGRADE YOUR SYSTEM AND INSTALL OPEN MEDIA VAULT FOR YOU ! __________${NC}"
 sleep 1
 echo -e "${orange} 1/2 --> upgrading system${NC}"
 sleep 3
