@@ -24,9 +24,9 @@ printf "\n"
 echo -e "${cyan}___________ WE ARE GOING TO FULLY UPGRADE YOUR SYSTEM AND INSTALL OPEN MEDIA VAULT FOR YOU ! __________${NC}"
 printf "\n"
 sleep 1
-echo -e "${orange} 1/2 --> upgrading system${NC}"
+echo -e "${orange} 1/2 --> Full-upgrade system${NC}"
 sleep 1
-echo -e "${orange} 2/2 --> installing Open Media Vault last version${NC}"
+echo -e "${orange} 2/2 --> Install Open Media Vault with the last version${NC}"
 sleep 1
 echo -e "${cyan}_______________________________________________________________________________________________________${NC}"
 for (( counter=5; counter>0; counter-- ))
@@ -40,13 +40,13 @@ printf "\n"
 echo -e "${green}UPGRADING SYSTEM SUCCESSFULLY${NC}"
 sleep 2
 printf "\n"
-printf "${green} 1/2 --> upgrading system\t...DONE${NC}"
+printf "${green} 1/2 --> Upgrading system\t...DONE${NC}"
 printf "\n"
 for (( counter=2; counter>0; counter-- ))
 do
 sleep 1
 done
-echo -e "${orange} 2/2 --> installing Open Media Vault last version, please wait until done${NC}"
+echo -e "${orange} 2/2 --> Now Installing Open Media Vault with the last version, please wait until done${NC}"
 for (( counter=5; counter>0; counter-- ))
 do
 sleep 1
