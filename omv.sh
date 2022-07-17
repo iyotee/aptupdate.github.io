@@ -49,7 +49,7 @@ printf "\n\n Starting in "
 StartingIn 4
 printf "\n\n"
 echo -e "${cyan}=================== S T A R T I N G   O  M  V   I N S T A L A T I O N  ==============================${NC}"
-echo -e "${cyan}\nThis takes about 20 minutes depending your systems performance and your network connection\nThe script will auto-reboot after the installation.${NC}"
+echo -e "${cyan}\nThis takes about 15 minutes depending your systems performance and your network connection\nThe script will auto-reboot after the installation.${NC}"
 printf "\n\n"
 sleep 2
 sudo curl -sSL https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
