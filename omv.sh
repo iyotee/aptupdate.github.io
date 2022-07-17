@@ -28,7 +28,7 @@ echo -e "${orange} 1/2 --> upgrading system${NC}"
 for (( counter=3; counter>0; counter-- ))
 do
 sleep 1
-echo -e " . "
+echo " . "
 done
 echo -e "${orange} 2/2 --> installing Open Media Vault last version${NC}"
 sleep 1
